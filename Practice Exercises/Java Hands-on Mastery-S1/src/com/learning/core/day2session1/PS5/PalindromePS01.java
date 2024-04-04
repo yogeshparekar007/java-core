@@ -1,8 +1,8 @@
-package com.learning.core.day2session1.PS1;
+package com.learning.core.day2session1.PS5;
 
 import java.util.Scanner;
 
-public class PalindromePS1 {
+public class PalindromePS01 {
 
 
 	public static void main(String[] args) {
