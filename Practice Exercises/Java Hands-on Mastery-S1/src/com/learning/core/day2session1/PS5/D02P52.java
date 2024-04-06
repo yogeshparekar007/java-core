@@ -2,7 +2,7 @@ package com.learning.core.day2session1.PS5;
 
 import java.util.Scanner;
 
-public class LastNVowelsCountPS02 {
+public class D02P52 {
     
     public static String countLastNVowels(String str, int n) {
         int count = 0;

@@ -2,7 +2,7 @@ package com.learning.core.day2session1.PS5;
 
 import java.util.Scanner;
 
-public class replaceSpacesPS09 {
+public class D02P59 {
 	
     public static void main(String[] args) {
     	

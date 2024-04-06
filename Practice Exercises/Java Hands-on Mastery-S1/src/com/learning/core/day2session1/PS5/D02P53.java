@@ -3,7 +3,7 @@ package com.learning.core.day2session1.PS5;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SubsequencesPS03 {
+public class D02P53 {
     
     public static void printSubsequences(String str) {
         int n = str.length();

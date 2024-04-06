@@ -1,6 +1,6 @@
 package com.learning.core.day2session1.PS5;
 
-public class MinimumDeletionsForPalindromePS04 {
+public class D02P54 {
 
     public static int minDeletionsForPalindrome(String str) {
         int n = str.length();

@@ -1,6 +1,6 @@
 package com.learning.core.day1session2.PS4;
 
-public class SubPS02 {
+public class D01P42 {
 
 	public static void main(String[] args) {
 		int A[] = { 3, 2, 4, 5, 6, 4, 5, 7, 3, 2, 3, 4, 7, 1, 2, 0, 0, 0 };

@@ -2,7 +2,7 @@ package com.learning.core.day1session1.PS3;
 
 import java.util.Scanner;
 
-public class MarksObtainedByStudentsPS3 {
+public class D01P33 {
 
 	public static void main(String[] args) {
 

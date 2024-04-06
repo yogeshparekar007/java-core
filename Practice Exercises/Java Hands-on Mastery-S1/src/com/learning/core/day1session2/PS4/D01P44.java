@@ -1,6 +1,6 @@
 package com.learning.core.day1session2.PS4;
 
-public class SubPS04 {
+public class D01P44 {
 
 	public static void findCombinations(int[] nums, int k) {
 		int[] combination = new int[k];

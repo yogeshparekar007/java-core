@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class SubPS03 {
+public class D01P43 {
 	public static int firstRepeatingElement(int[] arr, int n) {
 		for (int i = 0; i < n; i++) {
 			for (int j = i + 1; j < n; j++) {
