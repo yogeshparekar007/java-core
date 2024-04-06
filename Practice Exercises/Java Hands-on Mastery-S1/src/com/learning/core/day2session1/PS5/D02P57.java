@@ -28,7 +28,6 @@ public class D02P57 {
         // Split the dictionary into words
         String[] words = dictionary.split("\\s+");
 
-        // Iterate through each word in the dictionary
         for (String word : words) {
             Matcher matcher = regexPattern.matcher(word);
             if (matcher.matches()) {

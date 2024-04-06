@@ -8,7 +8,6 @@ class CricketRating {
     private float avgRating;
     private String coins;
 
-    // Constructor for two critics
     public CricketRating(String playerName, float critic1, float critic2) {
         this.playerName = playerName;
         this.critic1 = critic1;
@@ -17,7 +16,6 @@ class CricketRating {
         calculateCoins();
     }
 
-    // Constructor for three critics
     public CricketRating(String playerName, float critic1, float critic2, float critic3) {
         this.playerName = playerName;
         this.critic1 = critic1;
@@ -27,17 +25,14 @@ class CricketRating {
         calculateCoins();
     }
 
-    // Method to calculate average rating based on two critics
     public void calculateAverageRating(float critic1, float critic2) {
         avgRating = (critic1 + critic2) / 2;
     }
 
-    // Method to calculate average rating based on three critics
     public void calculateAverageRating(float critic1, float critic2, float critic3) {
         avgRating = (critic1 + critic2 + critic3) / 3;
     }
 
-    // Method to calculate coins based on average rating
     public String calculateCoins() {
         if (avgRating >= 7) {
             coins = "Gold";
@@ -51,7 +46,6 @@ class CricketRating {
         return coins;
     }
 
-    // Method to display information
     public void display() {
         System.out.println(playerName + " " + avgRating + " " + coins);
     }

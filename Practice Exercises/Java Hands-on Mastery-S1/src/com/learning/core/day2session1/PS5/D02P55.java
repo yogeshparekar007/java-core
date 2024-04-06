@@ -12,10 +12,9 @@ public class D02P55 {
     }
 
     public static boolean canFormCircle(String[] strings) {
-        // Create a map to store the first and last character of each string
-        Map<Character, Character> map = new HashMap<>();
 
-        // Populate the map
+    	Map<Character, Character> map = new HashMap<>();
+
         for (String str : strings) {
             char firstChar = str.charAt(0);
             char lastChar = str.charAt(str.length() - 1);

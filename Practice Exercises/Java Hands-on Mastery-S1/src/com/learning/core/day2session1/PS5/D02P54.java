@@ -25,7 +25,6 @@ public class D02P54 {
             }
         }
 
-        // Minimum number of deletions required is dp[0][n-1]
         return dp[0][n - 1];
     }
 
