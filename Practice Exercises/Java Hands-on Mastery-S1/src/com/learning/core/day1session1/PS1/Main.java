@@ -14,7 +14,7 @@ import com.learning.core.day3session2.PS8.Employee;
 public class Main {
 	
 	static List<Emp> employeeList = Arrays.asList(new Emp("David", 15000.00),
-	new Emp("Tom", 7000.00),
+	new Emp("Tom", 50000.00),
 	new Emp("AB", 56000.00));
 
 	public static void main(String[] args) {
